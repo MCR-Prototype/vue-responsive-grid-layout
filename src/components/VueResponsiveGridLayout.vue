@@ -159,6 +159,13 @@ export default class VueResponsiveGridLayout extends Vue {
     })
     public layouts: { [key: string]: Layout };
 
+    @Prop({
+        type: Boolean,
+        required: false,
+        default: true,
+    })
+    public layoutActive: boolean;
+
     @Watch('children')
     public onChildrenChange(newVal, oldVal) {
         this.$nextTick( () => {
