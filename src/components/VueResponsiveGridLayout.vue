@@ -304,6 +304,7 @@ export default class VueResponsiveGridLayout extends Vue {
     }
 
     public onLayoutUpdated(layout: Layout, last = false) {
+        console.log("Fork Consolelog!!!!!!!");
         const layouts = JSON.parse(JSON.stringify(this.layouts));
         this.$emit('layout-update', layout, {
                 ...layouts,
