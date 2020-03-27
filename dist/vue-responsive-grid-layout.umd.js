@@ -5349,12 +5349,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VueResponsiveGridLayout.vue?vue&type=template&id=3ffe11c4&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VueResponsiveGridLayout.vue?vue&type=template&id=0f02bb6a&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('VueGridLayout',_vm._g(_vm._b({ref:"layout",style:(_vm.styles),attrs:{"layout":_vm.layouts[_vm.breakpoint],"width":_vm.width,"cols":_vm.cols},on:{"layout-update":_vm.onLayoutUpdated,"add-child":_vm.onChildAdded,"remove-child":_vm.onChildRemoved},scopedSlots:_vm._u([{key:"default",fn:function(props){return [_vm._t("default",null,null,props)]}}],null,true)},'VueGridLayout',_vm.attrs,false),_vm.listeners))}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/VueResponsiveGridLayout.vue?vue&type=template&id=3ffe11c4&
+// CONCATENATED MODULE: ./src/components/VueResponsiveGridLayout.vue?vue&type=template&id=0f02bb6a&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.number.constructor.js
 var es6_number_constructor = __webpack_require__("c5f6");
@@ -7871,6 +7871,7 @@ function (_super) {
 
     var _a;
 
+    console.log("Fork Consolelog!!!!!!!");
     var layouts = JSON.parse(stringify_default()(this.layouts));
     this.$emit('layout-update', layout, __assign({}, layouts, (_a = {}, _a[this.breakpoint] = layout, _a)), last);
   };
