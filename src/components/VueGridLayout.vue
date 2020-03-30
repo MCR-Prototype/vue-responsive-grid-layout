@@ -203,7 +203,7 @@ export default class VueGridLayout extends Vue {
     get styles() {
         return {
             height: this.containerHeight(),
-        }
+        };
     }
 
     /**
@@ -272,7 +272,7 @@ export default class VueGridLayout extends Vue {
             x: l.x,
             y: l.y,
             i: 'placeholder',
-            compId: "-1"
+            compId: '-1',
         };
 
         // Move the element to the dragged location.
@@ -410,7 +410,7 @@ export default class VueGridLayout extends Vue {
             y: l.y,
             immobile: true,
             i,
-            compId: "-1"
+            compId: '-1',
         };
         const newLayout = compact(layout, this.compactType, cols);
 

@@ -118,7 +118,7 @@ export function cloneLayoutItem(layoutItem: LayoutItem): LayoutItem {
         // These can be null
         isDraggable: layoutItem.isDraggable,
         isResizable: layoutItem.isResizable,
-        compId : layoutItem.compId
+        compId : layoutItem.compId,
     };
 }
 
@@ -352,7 +352,7 @@ export function getFirstCollision(
     layoutItem: LayoutItem,
 ): LayoutItem | undefined {
     for (let i = 0, len = layout.length; i < len; i++) {
-    if (collides(layout[i], layoutItem)) {  
+    if (collides(layout[i], layoutItem)) {
         return layout[i];
     }
 }
@@ -534,7 +534,7 @@ export function moveElementAwayFromCollision(
             w: itemToMove.w,
             h: itemToMove.h,
             i: '-1',
-            compId: '-1'
+            compId: '-1',
         };
 
         // No collision? If so, we can go up there; otherwise, we'll end up moving down as normal
@@ -674,8 +674,17 @@ export function synchronizeLayoutWithChildren(
             } else {
                 const {x, y, w, h, immobile, compId} = props;
 
-                if (x !== undefined && y !== undefined && w !== undefined && h !== undefined && key !== undefined && compId !== undefined) {
-                    layout.push(cloneLayoutItem({ x, y, w, h, immobile: immobile ? immobile : false, i: String(key), compId}));
+                if (x !== undefined && y !== undefined && w !== undefined && h !== undefined &&
+                    key !== undefined && compId !== undefined) {
+                    layout.push(cloneLayoutItem({
+                         x,
+                         y,
+                         w,
+                         h,
+                         immobile: immobile ? immobile : false,
+                         i: String(key),
+                         compId,
+                    }));
                 } else {
                     layout.push(cloneLayoutItem({
                         w: 1,
@@ -683,7 +692,7 @@ export function synchronizeLayoutWithChildren(
                         x: 0,
                         y: bottom(layout),
                         i: String(key),
-                        compId: "-1"
+                        compId: '-1',
                     }));
                 }
 

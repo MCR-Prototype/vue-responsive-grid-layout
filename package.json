@@ -11,7 +11,8 @@
     "build-lib": "vue-cli-service build --target lib --name vue-responsive-grid-layout ./src/components/index.ts",
     "build-wc": "vue-cli-service build --target wc --name vue-responsive-grid-layout ./src/components/*.vue",
     "build-wc-async": "vue-cli-service build --target wc-async --name vue-responsive-grid-layout ./src/components/*.vue",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+	  "build-lib-vec": "move ./node_modules_old ./node_modules && vue-cli-service build --target lib --name vue-responsive-grid-layout ./src/components/index.ts && move ./node_modules ./node_modules_old"
   },
   "dependencies": {
     "vue": "^2.6.7",
