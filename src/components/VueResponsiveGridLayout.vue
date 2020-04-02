@@ -261,11 +261,8 @@ export default class VueResponsiveGridLayout extends Vue {
                 newCols,
                 this.compactType,
             );
-
             layout = compact(layout, this.compactType, newCols);
-
             this.$set(currentLayouts, newBreakpoint, layout);
-
             this.$emit('layout-init', layout, currentLayouts, newCols, newBreakpoint);
         }
     }
@@ -311,7 +308,6 @@ export default class VueResponsiveGridLayout extends Vue {
     }
 
     public onLayoutUpdated(layout: Layout, last = false) {
-        console.log('Fork Consolelog!!!!!!! new');
         const layouts = JSON.parse(JSON.stringify(this.layouts));
         this.$emit('layout-update', layout, {
                 ...layouts,

@@ -5340,12 +5340,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VueResponsiveGridLayout.vue?vue&type=template&id=19c82987&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VueResponsiveGridLayout.vue?vue&type=template&id=8eebd244&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('VueGridLayout',_vm._g(_vm._b({ref:"layout",style:(_vm.styles),attrs:{"layout":_vm.layouts[_vm.breakpoint],"width":_vm.width,"cols":_vm.cols},on:{"layout-update":_vm.onLayoutUpdated,"add-child":_vm.onChildAdded,"remove-child":_vm.onChildRemoved},scopedSlots:_vm._u([{key:"default",fn:function(props){return [_vm._t("default",null,null,props)]}}],null,true)},'VueGridLayout',_vm.attrs,false),_vm.listeners))}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/VueResponsiveGridLayout.vue?vue&type=template&id=19c82987&
+// CONCATENATED MODULE: ./src/components/VueResponsiveGridLayout.vue?vue&type=template&id=8eebd244&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.number.constructor.js
 var es6_number_constructor = __webpack_require__("c5f6");
@@ -5695,12 +5695,12 @@ var web_dom_iterable = __webpack_require__("ac6a");
 var object_assign = __webpack_require__("5176");
 var assign_default = /*#__PURE__*/__webpack_require__.n(object_assign);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VueGridItem.vue?vue&type=template&id=7a48b4f8&
-var VueGridItemvue_type_template_id_7a48b4f8_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.classes,style:(_vm.styles)},[_c('DraggableCore',{class:_vm.dragContainerClass,attrs:{"onStart":_vm.onDragHandler('onDragStart'),"onDrag":_vm.onDragHandler('onDrag'),"onStop":_vm.onDragHandler('onDragStop'),"disabled":!_vm.isDraggable || _vm.immobile,"handle":_vm.handle,"cancel":_vm.cancel,"noTouchAction":_vm.noTouchAction,"touchAction":_vm.touchAction,"draggableCoreProps":_vm.draggableCoreProps}},[(_vm.component)?_c(_vm.component,_vm._b({ref:"component",tag:"div",attrs:{"cols":_vm.cols,"w":_vm.w,"h":_vm.h}},'div',_vm.componentProps,false)):_vm._t("default",null,{"cols":_vm.cols,"w":_vm.w,"h":_vm.h})],2),(_vm.isResizable)?_c('Resizable',{attrs:{"w":_vm.calcWidth(),"h":_vm.calcHeight(),"onResizeStart":_vm.onResizeHandler('onResizeStart'),"onResize":_vm.onResizeHandler('onResize'),"onResizeStop":_vm.onResizeHandler('onResizeStop'),"minConstraints":_vm.minConstraints,"maxConstraints":_vm.maxConstraints,"className":'resizable',"resizableProps":_vm.resizableProps}},[_c('div',{staticClass:"resizable-handle"})]):_vm._e()],1)}
-var VueGridItemvue_type_template_id_7a48b4f8_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VueGridItem.vue?vue&type=template&id=7843d4fc&
+var VueGridItemvue_type_template_id_7843d4fc_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.classes,style:(_vm.styles)},[_c('DraggableCore',{class:_vm.dragContainerClass,attrs:{"onStart":_vm.onDragHandler('onDragStart'),"onDrag":_vm.onDragHandler('onDrag'),"onStop":_vm.onDragHandler('onDragStop'),"disabled":!_vm.isDraggable || _vm.immobile,"handle":_vm.handle,"cancel":_vm.cancel,"noTouchAction":_vm.noTouchAction,"touchAction":_vm.touchAction,"draggableCoreProps":_vm.draggableCoreProps}},[(_vm.component)?_c(_vm.component,_vm._b({ref:"component",tag:"div",attrs:{"cols":_vm.cols,"w":_vm.w,"h":_vm.h}},'div',_vm.componentProps,false)):_vm._t("default",null,{"cols":_vm.cols,"w":_vm.w,"h":_vm.h})],2),(_vm.isResizable)?_c('Resizable',{attrs:{"w":_vm.calcWidth(),"h":_vm.calcHeight(),"onResizeStart":_vm.onResizeHandler('onResizeStart'),"onResize":_vm.onResizeHandler('onResize'),"onResizeStop":_vm.onResizeHandler('onResizeStop'),"minConstraints":_vm.minConstraints,"maxConstraints":_vm.maxConstraints,"className":'resizable',"resizableProps":_vm.resizableProps}},[_c('div',{staticClass:"resizable-handle"})]):_vm._e()],1)}
+var VueGridItemvue_type_template_id_7843d4fc_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/VueGridItem.vue?vue&type=template&id=7a48b4f8&
+// CONCATENATED MODULE: ./src/components/VueGridItem.vue?vue&type=template&id=7843d4fc&
 
 // EXTERNAL MODULE: ./node_modules/vue-draggable-core/dist/vue-draggable-core.min.js
 var vue_draggable_core_min = __webpack_require__("fa8c");
@@ -6786,6 +6786,12 @@ function (_super) {
 
   __decorate([Prop({
     type: String,
+    required: false,
+    default: -1
+  })], GridItem.prototype, "compId", void 0);
+
+  __decorate([Prop({
+    type: String,
     required: true
   })], GridItem.prototype, "i", void 0);
 
@@ -7032,8 +7038,8 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   components_VueGridItemvue_type_script_lang_ts_,
-  VueGridItemvue_type_template_id_7a48b4f8_render,
-  VueGridItemvue_type_template_id_7a48b4f8_staticRenderFns,
+  VueGridItemvue_type_template_id_7843d4fc_render,
+  VueGridItemvue_type_template_id_7843d4fc_staticRenderFns,
   false,
   null,
   null,
@@ -7869,7 +7875,6 @@ function (_super) {
 
     var _a;
 
-    console.log('Fork Consolelog!!!!!!! new');
     var layouts = JSON.parse(stringify_default()(this.layouts));
     this.$emit('layout-update', layout, __assign({}, layouts, (_a = {}, _a[this.breakpoint] = layout, _a)), last);
   };

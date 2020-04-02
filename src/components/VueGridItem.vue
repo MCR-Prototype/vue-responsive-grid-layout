@@ -185,6 +185,13 @@ export default class GridItem extends Vue {
     })
     public maxH: number;
 
+    @Prop({
+        type: String,
+        required: false,
+        default: -1,
+    })
+    public compId: number;
+
     // ID
     @Prop({
         type: String,
