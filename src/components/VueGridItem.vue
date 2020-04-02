@@ -188,7 +188,7 @@ export default class GridItem extends Vue {
     @Prop({
         type: String,
         required: false,
-        default: -1,
+        default: '-1',
     })
     public compId: number;
 
